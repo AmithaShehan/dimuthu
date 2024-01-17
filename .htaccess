@@ -1,0 +1,10 @@
+RewriteEngine on
+
+# Check if the requested file doesn't exist without the extension
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Check if the requested file does exist with the .html extension
+RewriteCond %{REQUEST_FILENAME}.html -f
+
+# Rewrite the request to include the .html extension
+RewriteRule ^(.*)$ $1.html [L]

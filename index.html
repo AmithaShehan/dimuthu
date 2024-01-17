@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dimuthu Iron Works</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.ico" />
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- animate on scroll -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- NavBar section -->
+      <nav class="navbar navbar-expand-lg navbar-light bs-white bg-light">
+        <div class="container text-center">
+          <a class="navbar-brand" href="/"
+            ><img src="./img/logo.png" alt="" style="height: 70px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active h-100">
+          <img
+            src="./img/slider-1.jpg"
+            class="d-block w-100 vh-100 img-fluid"
+            alt="slider-image-1"
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100"
+          >
+            <h1 class="text-capitalize">Gate Manufacturing</h1>
+            <p class="fs-4">
+              We design and manufacture stunning Gates and Fences
+            </p>
+            <div>
+              <a href="#" class="btn btn-info btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item h-100">
+          <img
+            src="./img/slider-2.jpg"
+            class="d-block w-100 vh-100 img-fluid"
+            alt="slider-image-2"
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100"
+          >
+            <h1 class="text-capitalize">Iron Roofing</h1>
+            <p class="fs-4">
+              We provide long lasting roofing solutions at an affordable price
+            </p>
+            <div>
+              <a href="#" class="btn btn-info btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item h-100">
+          <img
+            src="./img/slider-3.jpg"
+            class="d-block w-100 vh-100 img-fluid"
+            alt="slider-image-3"
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100"
+          >
+            <h1 class="text-capitalize">Roller Doors</h1>
+            <p class="fs-4">
+              We install roller doors for your house, land or industry
+            </p>
+            <div>
+              <a href="#" class="btn btn-info btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Who We Are! -->
+    <main
+      id="about"
+      class="container who-we-are pt-5 d-flex align-items-center"
+      data-aos="zoom-in-up"
+      data-aos-duration="3000"
+    >
+      <div class="row pt-5">
+        <div
+          class="col-md-6 d-flex align-items-center justify-content-center mb-4 pt-5"
+        >
+          <img src="./img/logo.png" width="300" alt="" />
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <h1 class="display-5 text-center text-md-start">About Us</h1>
+          <p class="fs-5">
+            At Dimuthu Iron Works, we're more than just ironworkers; we're
+            architects of security, shapers of spaces, and builders of dreams.
+            We're the team that transforms cold, hard iron into the lifeblood of
+            your property – from the grand entrance of your home to the secure
+            perimeter of your business.
+          </p>
+          <div class="d-flex justify-content-center justify-content-md-start">
+            <a href="#contact" class="btn btn-primary" style="max-width: 150px"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Services -->
+    <section class="container pt-5 services" id="services">
+      <div class="row" data-aos="zoom-in-up" data-aos-duration="3000">
+        <div class="col text-center">
+          <h2 class="display-5">Our Services</h2>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div
+          class="col-md-4 text-center pb-3"
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
+          <div class="card" style="width: 100%">
+            <img src="./img/service1.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Gates</h5>
+              <p class="card-text">
+                From majestic driveway gates to charming garden gates, we craft
+                secure and stylish entrances that make a lasting impression.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 text-center pb-3"
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
+          <div class="card">
+            <img src="./img/service2.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Fences</h5>
+              <p class="card-text">
+                We do export brand new and reconditioned Japan made vehicles to
+                our customers without any intermediary
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 text-center pb-3"
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
+          <div class="card" style="width: 100%">
+            <img src="./img/service3.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Roller Doors</h5>
+              <p class="card-text">
+                Enhance the convenience and security of your garage or business
+                with our custom-built roller doors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-3">
+        <div
+          class="col-md-4 text-center pb-3"
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
+          <div class="card" style="width: 100%">
+            <img src="./img/service4.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Gym Racks</h5>
+              <p class="card-text">
+                Build your dream home gym with our sturdy and versatile gym
+                racks, perfect for any fitness level
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 text-center pb-3"
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
+          <div class="card">
+            <img src="./img/service5.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iron Roofing</h5>
+              <p class="card-text">
+                We do export brand new and reconditioned Japan made vehicles to
+                our customers without any intermediary
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-4 text-center pb-3"
+          data-aos="zoom-in-up"
+          data-aos-duration="3000"
+          data-aos-delay="300"
+        >
+          <div class="card" style="width: 100%">
+            <img src="./img/service3.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">One More</h5>
+              <p class="card-text">
+                Enhance the convenience and security of your garage or business
+                with our custom-built roller doors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container py-3 projects" id="gallery">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="display-5" data-aos="zoom-in-up" data-aos-duration="3000">
+            Gallery
+          </h2>
+        </div>
+      </div>
+      <div
+        class="row gallery-main p-0 mt-3"
+        id="gallery-main"
+        data-aos="zoom-in-up"
+        data-aos-duration="3000"
+      >
+        <div class="gallery">
+          <div>
+            <img src="./img/gallery/1.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="v-stretch">
+            <img src="./img/gallery/2.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="h-stretch">
+            <img src="./img/gallery/3.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="v-stretch">
+            <img src="./img/gallery/4.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="h-stretch">
+            <img src="./img/gallery/5.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="h-stretch">
+            <img src="./img/gallery/6.jpg" alt="" loading="lazy" />
+          </div>
+          <div>
+            <img src="./img/gallery/7.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="container-fluid bg-dark pt-3" id="footer">
+      <div
+        class="row justify-content-center text-center fs-5 main-menu d-flex justify-content-evenly"
+      >
+        <div class="col-sm-12 col-md-5 col-lg-3">
+          <p class="text-light fs-4">Dimuthu Iron Works</p>
+          <p class="text-light text-start">
+            Craft your vision in iron. We're generations of artisans weaving
+            strength & style into gates, fences, roller doors, and more.
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-5 col-lg-3 d-flex flex-column align-items-center">
+          <p class="text-light fs-4">Contact Us</p>
+          <p class="text-light text-start">
+            <span><i class="fa-solid fa-phone pe-3"></i></span>
+            <a href="tel:+9477 985 6420" class="text-decoration-none text-light"
+              >077 985 6420</a
+            >
+          </p>
+          <p class="text-light text-start">
+            <span><i class="fa-brands fa-whatsapp pe-3"></i></span>
+            <a
+              href="https://wa.link/tlyx1j"
+              class="text-decoration-none text-light"
+              >071 488 6895</a
+            >
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-5 col-lg-3">
+          <p class="text-light fs-4">Meet Us at</p>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.9753571634476!2d79.98674631320804!3d7.0324432652206905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f9a94f3a16eb%3A0xee3859b574d9a78!2sDIMUTHU%20IRON%20WORKS!5e0!3m2!1sen!2slk!4v1705500915554!5m2!1sen!2slk"
+              width="300"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <section class="footer-menu container pt-3">
+        <div class="row justify-content-center text-center fs-4 pt-4">
+          <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-between">
+            <a href="#" class="text-decoration-none text-light"
+              ><i class="fa-brands fa-instagram text-white"></i
+            ></a>
+            <a
+              href="#"
+              target="_blank"
+              class="text-decoration-none text-light"
+              ><i class="fa-brands fa-facebook text-white"></i
+            ></a>
+            <a href="#" class="text-decoration-none text-light"
+              ><i class="fa-brands fa-youtube text-white"></i
+            ></a>
+          </div>
+        </div>
+        <hr class="text-white" />
+        <div class="row text-white text-center">
+          <div class="col-12">
+            <p>
+              Copyright &copy; Dimuthu Iron Works
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All Rights Reserved
+            </p>
+            <p>
+              Powered by
+              <a
+                href="https://asmoratech.com/"
+                class="text-decoration-none"
+                target="_blank"
+                >AsmoraTech</a
+              >
+              Web Solutions
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/ebfc0c7e09.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
